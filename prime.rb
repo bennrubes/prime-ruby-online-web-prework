@@ -1,8 +1,6 @@
 def prime?(num)
   if num < 2
     return false
-  elsif num / 
-   return true
   elsif
     x = 2
     while x <= (num/2.0)
