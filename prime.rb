@@ -3,6 +3,6 @@ def prime?(num)
     return false
   else
     [2..num-1].each do |natural_num|
-      num
+      num % natural_num != 0
  end
 end
