@@ -1,10 +1,10 @@
 def prime?(num)
-  if num < 2
+  if num < 2.0
     return false
   elsif
-    x = 2
+    x = 2.0
     while x <= (num/2.0)
-        num % x == 0
+        num % x == 0.0
       return false
     end
   else
